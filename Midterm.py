@@ -62,6 +62,6 @@ while(True):
     db[accountNumber2][4] = db[accountNumber2][4] + int(money)
     print("You've succesfully transfered money to:" + db[accountNumber2][0] +" " + db[accountNumber2][1] )
   else: 
-    print ("You have not enough money to do the transaction")
+    print ("You have not enough money to do the transaction !")
   
   
