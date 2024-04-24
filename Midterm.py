@@ -4,7 +4,7 @@ db ={}
 def checkAccount (account):
   CorrectAccount = True
   if len(account) != 5:
-      print ("incorrect account number")
+      print ("incorrect account number !")
       CorrectAccount = False
   for i in range(2,len(account)):
     if account[i].isdigit() == False:
